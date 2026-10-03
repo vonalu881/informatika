@@ -1,7 +1,3 @@
 def echo_number(number):
-    return number
+    return f"Thats the number you entered {number}"
 
-if __name__ == "__main__":
-    number = int(input("введите номер"))
-
-print("Thats the number you entered",echo_number(number))
