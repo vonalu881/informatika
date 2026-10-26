@@ -4,5 +4,11 @@ def compare(m, n):
     elif m < n:
         return "Number m < n"
     else:
-        return "The numbers are equel"
+        return "The numbers are equal"
 
+if __name__ == "__main__":
+    m = int(input("введите m"))
+    n = int(input("введите n"))
+
+print(compare(m, n))
+    
